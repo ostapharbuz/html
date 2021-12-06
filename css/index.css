@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Istok+Web&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Asap', sans-serif;
+}
+header {
+    background-color: rgb(223, 224, 224);
+}
+    
+.navigation h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.navigation p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 20px 20px;
+}
+.social-icons img {
+    height: 32px;
+}
+
+@media (min-width: 600px) {
+
+}
