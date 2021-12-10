@@ -1,0 +1,49 @@
+.buttons {
+    font-family: 'Istok Web', sans-serif;
+    height: 16px;
+    padding: 20px;
+}
+
+.buttons a {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 15px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    transition: color 0.7s;
+    color: rgb(255, 255, 255);
+}
+
+.b-services {
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.b-services:hover {
+    background-color: white;
+    color: rgb(44, 42, 42);
+}
+
+.b-offers {
+    background-color: #2252f6;
+    border: 3px solid #2252f6;
+}
+
+.b-offers:hover {
+    background-color: white;
+    color: rgb(44, 42, 42);
+    border: 3px solid white;
+}
+
+@media (min-width: 600px) {
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+}

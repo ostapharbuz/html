@@ -101,18 +101,3 @@ main div.banner p {
     font-size: 19px;
     padding-top: 20px;
 }
-
-main div.banner div.buttons {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-}
-
-main div.banner div.buttons a {
-    text-decoration: none;
-    color: white;
-}
-
-main div.banner div.buttons a:hover {
-    font-weight: bold;
-}
