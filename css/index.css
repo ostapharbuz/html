@@ -10,7 +10,7 @@
 }
 
 :root {
-    font-family: 'Asap:wght@400', sans-serif;
+    font-family: 'Asap', sans-serif;
 }
 
 .navigation {
@@ -101,3 +101,67 @@ main div.banner p {
     font-size: 19px;
     padding-top: 20px;
 }
+
+div.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 24px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+div.services h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+div.services p {
+    font-family: 'Istok Web', sans-serif;
+    padding: 20px 0px 10px 0px;
+    color: rgb(95, 93, 93);
+    text-align: center;
+}
+
+div.photos img {
+    max-width: 100%;
+}
+
+div.photos h3 {
+    padding-top: 20px;
+}
+
+div.free-place {
+    padding: 15px;
+}
+
+div.img-1 {
+    padding: 20px;
+    background-color:rgb(32, 31, 31);
+    margin-top: 30px;
+    text-align: center;
+}
+
+div.img-2 {
+    padding: 20px;
+    background-color:rgb(32, 31, 31);
+    margin-top: 30px;
+    text-align: center;
+}
+
+div.img-3 {
+    padding: 20px;
+    background-color:rgb(32, 31, 31);
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+     div.photos {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap: 10px;
+     }
+}
+
