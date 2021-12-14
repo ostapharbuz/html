@@ -132,9 +132,6 @@ div.photos h3 {
     padding-top: 20px;
 }
 
-div.free-place {
-    padding: 15px;
-}
 
 div.img-1 {
     padding: 20px;
@@ -157,11 +154,20 @@ div.img-3 {
     text-align: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
      div.photos {
          display: grid;
          grid-template-columns: 1fr 1fr 1fr;
-         grid-gap: 10px;
+         grid-gap: 20px;
+     }
+
+     div.img {
+         height: 230px; 
+     }
+
+     div.img > img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
      }
 }
-
