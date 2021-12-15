@@ -171,3 +171,53 @@ div.img-3 {
          object-fit: cover;
      }
 }
+
+div.slides > img {
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px;
+    background-color: rgb(24, 21, 21);
+    color: white;
+}
+
+footer h2 {
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+div.contacts > h3 {
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+
+footer p {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 17px;
+    color: rgb(95, 93, 93);
+}
+
+div.form {
+    background-color: rgb(32, 31, 31);
+    padding: 40px; 
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+div.forms input {
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    border: 2px solid rgb(24, 21, 21);
+    border-bottom-color: #2252f6;
+    background-color: rgb(24, 21, 21);
+    color: white;
+}
+

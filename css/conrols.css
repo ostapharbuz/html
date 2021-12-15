@@ -47,3 +47,25 @@
         padding-top: 60px;
     }
 }
+
+button.button {
+    margin: 30px 0;
+    padding: 15px;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: color 0.7s;
+    color: rgb(255, 255, 255);
+    background-color: #2252f6;
+    border: 3px solid #2252f6;
+}
+
+button.button:hover {
+    background-color: white;
+    color: rgb(44, 42, 42);
+    border: 3px solid white;
+}
