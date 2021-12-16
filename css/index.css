@@ -180,7 +180,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 90px 20px;
-    background-color: rgb(24, 21, 21);
+    background-color: rgb(19, 18, 18);
     color: white;
 }
 
@@ -189,7 +189,17 @@ footer h2 {
     padding-bottom: 10px;
 }
 
-div.contacts > h3 {
+div.adress > h3 {
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+
+div.hours > h3 {
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+
+div.contact > h3 {
     font-size: 18px;
     padding: 20px 0 10px 0;
 }
@@ -221,3 +231,83 @@ div.forms input {
     color: white;
 }
 
+@media (min-width: 1050px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+
+    footer div.content {
+
+        margin-left: 100px;
+    }
+
+    footer div.form {
+
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+
+    div.forms {
+        margin: 30px 50px 0 50px;
+    }
+    
+    div.button-form {
+        margin: 0 50px 30px 50px;
+    }
+    
+    div.content > h2 {
+        padding-bottom: 30px;
+    }
+
+    div.content > p {
+        padding-bottom: 40px;
+    }
+
+    div.adress {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    div.adress > h3 {
+        flex: 1;
+    }
+
+    div.adress > p {
+        flex: 4;
+    }
+
+    div.hours {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    div.hours > h3 {
+        flex: 1;
+    }
+
+    div.hours > p {
+        flex: 4;
+    }
+
+    div.contact {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    div.contact > h3 {
+        flex: 1;
+    }
+
+    div.contact > p {
+        flex: 4;
+    }
+
+}
